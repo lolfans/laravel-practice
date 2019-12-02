@@ -68,6 +68,8 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\User::class,
+            //rbac Entrust
+            'table' => 'users',
         ],
 
         // 'users' => [
