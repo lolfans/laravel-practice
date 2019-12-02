@@ -19,3 +19,7 @@ use Illuminate\Http\Request;
 Route::get('/token','AuthenticateController@authenticate');
 Route::middleware('jwt.auth')->get('/index','AuthenticateController@index');
 
+Route::get('create-test','RbacController@create');
+Route::get('add-role','RbacController@addRoleToUser');
+Route::get('add-quxian','RbacController@giveToUser');
+
