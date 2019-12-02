@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 //Route::get('/login','AuthenticateController@authenticate');
 //Route::get('/token','AuthenticateController@getAuthenticatedUser');
+Route::get('excel/export','ExcelController@export');
+Route::get('excel/import','ExcelController@import');

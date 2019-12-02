@@ -23,3 +23,4 @@ Route::get('create-test','RbacController@create');
 Route::get('add-role','RbacController@addRoleToUser');
 Route::get('add-quxian','RbacController@giveToUser');
 
+
