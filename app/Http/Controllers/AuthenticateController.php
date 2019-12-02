@@ -30,7 +30,11 @@ class AuthenticateController extends Controller
         return response()->json(compact('token'));
     }
 
-    public function index(){
+    public function index(JWTAuth $jwt){
+        $user = $jwt->parseToken()->authenticate();
+//        dd($user);
+        dd($user->hasRole('admin'));
+        dd($user->hasRole('owner'));
         $index = 'success';
         return response()->json(compact('index'));
     }
