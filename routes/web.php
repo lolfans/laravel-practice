@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/login','AuthenticateController@authenticate');
+//Route::get('/login','AuthenticateController@authenticate');
+//Route::get('/token','AuthenticateController@getAuthenticatedUser');
