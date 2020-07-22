@@ -1,0 +1,10 @@
+ionic ValidationError: Invalid options object. Sass Loader has been initialized using an options obj
+
+
+解决方案：
+
+重新安装sass-loader
+
+npm uninstall --save-dev sass-loader
+
+npm install --save-dev sass-loader@7.1.0
