@@ -5,6 +5,8 @@
 
 1.2, JWT 无感刷新TOKEN.https://learnku.com/articles/7264/using-jwt-auth-to-implement-api-user-authentication-and-painless-refresh-access-token?#reply114543
 
+1.3，https://blog.csdn.net/caozhennan824/article/details/106878109/  理解概念
+
 -----
 已实践集成  Entrust 扩展包在 Laravel 5 中实现 RBAC 权限管理
 -----
